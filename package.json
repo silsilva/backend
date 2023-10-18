@@ -26,10 +26,8 @@
     "typescript": "^4.4.4"
   },
   "scripts": {
-    "dev:front": "parcel serve ./client/index.html",
     "dev": "nodemon --watch './server/index.ts' --exec ts-node ./server/index.ts",
-    "build:api": "tsc",
-    "build": "yarn build:api",
+    "build": "tsc",
     "start": "node ./server/index.js"
   },
   "devDependencies": {
