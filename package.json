@@ -27,8 +27,7 @@
   },
   "scripts": {
     "dev": "nodemon --watch './server/index.ts' --exec ts-node ./server/index.ts",
-    "build": "tsc",
-    "start": "node ./server/index.js"
+    "build": "tsc"
   },
   "devDependencies": {
     "buffer": "^5.5.0||^6.0.0",
